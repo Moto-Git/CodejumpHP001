@@ -1,0 +1,202 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.2px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+}
+
+.site_width {
+  width: 825px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 270px;
+}
+
+.header_sbs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding-top: 135px;
+}
+.header_sbs .header_li_p {
+  margin-right: 40px;
+}
+.header_sbs .header_li_p:last-child {
+  margin-right: 30px;
+}
+.header_sbs .header_li img {
+  width: 20px;
+  height: auto;
+  margin-top: -5px;
+}
+
+.hero_img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 420px;
+}
+.hero_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about,
+.works,
+.news,
+.contact {
+  width: 827px;
+  padding: 85px 0 45px;
+  margin: 0 auto;
+}
+.about h2,
+.works h2,
+.news h2,
+.contact h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.about .name {
+  margin-top: 70px;
+}
+.about .atum {
+  margin-top: 36px;
+}
+.about .atum .tel,
+.about .atum .url,
+.about .atum .mail {
+  margin-top: 7px;
+}
+.about .profile_txt {
+  margin-top: 34px;
+}
+.about .profile_txt .profile_txt_p {
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+}
+
+.works .works_contents_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px;
+  margin-top: 65px;
+  padding-bottom: 26px;
+}
+.works .works_contents_img .worksimg {
+  width: 100%;
+  height: 100%;
+}
+.works .works_contents_img .worksimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.news .news_txt {
+  width: 827px;
+  margin-top: 65px;
+}
+.news .news_txt .news_content {
+  display: flex;
+  padding: 20px 0;
+  width: 100%;
+  border-top: 1px dotted black;
+}
+.news .news_txt .news_content:last-child {
+  border-bottom: 1px dotted black;
+}
+.news .news_txt .news_content p {
+  line-height: 0.8;
+}
+.news .news_txt .news_content .news_date {
+  margin-left: 15px;
+}
+.news .news_txt .news_content .news_txt_p {
+  margin-left: 80px;
+}
+
+.contact .contact_form {
+  padding-top: 65px;
+}
+.contact .contact_form .name_form,
+.contact .contact_form .email_form,
+.contact .contact_form .message_form {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 1.1;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .contact_form .email_form,
+.contact .contact_form .message_form {
+  margin-top: 10px;
+}
+.contact .contact_form .name_label,
+.contact .contact_form .email_label,
+.contact .contact_form .message_label {
+  display: block;
+  width: 100px;
+  height: 30px;
+}
+.contact .contact_form #name_txt,
+.contact .contact_form #email_txt,
+.contact .contact_form #message_txt {
+  display: block;
+  width: 702px;
+}
+.contact .contact_form #name_txt,
+.contact .contact_form #email_txt {
+  height: 43px;
+}
+.contact .contact_form #message_txt {
+  height: 160px;
+}
+.contact .contact_form .contact_button {
+  text-align: center;
+  margin-top: 35px;
+}
+.contact .contact_form .contact_button .button {
+  width: 200px;
+  height: 52px;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 32px;
+  margin-top: 86px;
+  text-align: center;
+}
+.footer p {
+  padding: 11px 0 0 0;
+  font-size: 8px;
+}/*# sourceMappingURL=style.css.map */
